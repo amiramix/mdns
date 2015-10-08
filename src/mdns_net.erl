@@ -48,7 +48,7 @@
     broadcast_port,
     %% This dict is used to merge a series of packets from one sender.
     %% Contains pairs of `{IP, {TRef, Rec=#dns_rec{}}}'.
-    waiting_dict :: dict()
+    waiting_dict :: dict:dict()
 }).
 
 %
